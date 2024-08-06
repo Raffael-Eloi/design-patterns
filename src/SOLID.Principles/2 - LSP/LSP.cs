@@ -1,4 +1,6 @@
-﻿namespace SOLID.Principles._2___LSP;
+﻿using static System.Console;
+
+namespace SOLID.Principles._2___LSP;
 
 /*
  * LSP - Liskov Substitution Principle
@@ -10,6 +12,8 @@ public class Rectangle
 {
     //public int Width { get; set; }
     //public int Height { get; set; }
+
+    // The virtual keyword is used to modify a method, property, indexer, or event declaration and allow for it to be overridden in a derived class.
 
     public virtual int Width { get; set; }
     public virtual int Height { get; set; }
