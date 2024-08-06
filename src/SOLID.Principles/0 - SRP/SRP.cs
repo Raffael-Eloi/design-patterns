@@ -3,6 +3,12 @@ using static System.Console;
 
 namespace SOLID.Principles._0___SRP;
 
+/*
+ * SRP - Single Responsibility Principle
+ * Every module or class should have responsibility over a single part of the functionality provided by the software
+ * It should have one reason to change
+*/
+
 // just stores a couple of journal entries and ways of
 // working with them
 public class Journal

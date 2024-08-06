@@ -2,6 +2,11 @@
 
 namespace SOLID.Principles._1___OCP;
 
+/*
+ * OCP - Open/Closed Principle
+ * The open/closed principle states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification";
+*/
+
 public enum Color
 {
     Red, Green, Blue
