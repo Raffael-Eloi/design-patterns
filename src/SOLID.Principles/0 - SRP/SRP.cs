@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using static System.Console;
 
-namespace SOLID.Principles.SRP;
+namespace SOLID.Principles._0___SRP;
 
 // just stores a couple of journal entries and ways of
 // working with them
