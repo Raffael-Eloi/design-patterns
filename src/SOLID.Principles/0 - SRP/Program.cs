@@ -70,7 +70,7 @@ public class Demo
         WriteLine(journal);
 
         var persistence = new Persistence();
-        var filename = @"C:\Users\raffa\source\repos\design-patterns\src\SOLID.Principles\SRP\journal.txt";
+        var filename = @"C:\Users\raffa\source\repos\design-patterns\src\SOLID.Principles\0 - SRP\journal.txt";
         Persistence.SaveToFile(journal, filename);
 
         var p = new Process();
