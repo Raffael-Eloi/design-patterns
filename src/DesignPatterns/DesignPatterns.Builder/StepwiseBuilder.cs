@@ -87,7 +87,7 @@ public class CarBuilder
 
 class ProgramStepWiseBuilder
 {
-    static void Main(string[] args)
+    static void MainStepwiseBuilder(string[] args)
     {
         var car = CarBuilder.Create()
           .OfType(CarType.Crossover)

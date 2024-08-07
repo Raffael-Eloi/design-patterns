@@ -91,8 +91,8 @@ internal class Program
     public static void MainBuilderInheritance(string[] args)
     {
         var me = Person.New
-          .Called("Dmitri")
-          .WorksAsA("Quant")
+          .Called("Raffael")
+          .WorksAsA("Software Engineer")
           .Born(DateTime.UtcNow)
           .Build();
         Console.WriteLine(me);
