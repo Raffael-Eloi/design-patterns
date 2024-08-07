@@ -5,7 +5,16 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID Design Principles", "SOLID Design Principles", "{420A7FBF-43D6-416B-89EC-273A7E54BD64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Principles", "src\SOLID.Principles\SOLID.Principles.csproj", "{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID.Principles", "src\SOLID.Principles\SOLID.Principles.csproj", "{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns", "Design Patterns", "{DC9C8E64-7B26-45C3-8002-96FC84133A48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Creational Patterns", "0 - Creational Patterns", "{ADC3C916-141E-4B19-9406-A7CDBC8E96A6}"
+	ProjectSection(SolutionItems) = preProject
+		CreationalPatterns.md = CreationalPatterns.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Builder", "src\DesignPatterns.Builder\DesignPatterns.Builder.csproj", "{13770D91-755D-4768-B1FD-72AD9EC65B64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +26,18 @@ Global
 		{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13770D91-755D-4768-B1FD-72AD9EC65B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13770D91-755D-4768-B1FD-72AD9EC65B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13770D91-755D-4768-B1FD-72AD9EC65B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13770D91-755D-4768-B1FD-72AD9EC65B64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4} = {420A7FBF-43D6-416B-89EC-273A7E54BD64}
+		{ADC3C916-141E-4B19-9406-A7CDBC8E96A6} = {DC9C8E64-7B26-45C3-8002-96FC84133A48}
+		{13770D91-755D-4768-B1FD-72AD9EC65B64} = {ADC3C916-141E-4B19-9406-A7CDBC8E96A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EC99634-91C5-483A-B0E4-D230EE280F21}
