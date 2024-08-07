@@ -62,7 +62,7 @@ public class Demo
 {
     static public int Area(Rectangle r) => r.Width * r.Height;
 
-    static void Main(string[] args)
+    static void MainLSP(string[] args)
     {
         Rectangle rc = new Rectangle(2, 3);
         WriteLine($"{rc} has area {Area(rc)}");

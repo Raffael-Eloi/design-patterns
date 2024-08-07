@@ -68,7 +68,7 @@ public class Persistence
 
 public class Demo
 {
-    static void Main(string[] args)
+    static void MainSRP(string[] args)
     {
         var journal = new Journal();
         journal.AddEntry("Today was a good day.");

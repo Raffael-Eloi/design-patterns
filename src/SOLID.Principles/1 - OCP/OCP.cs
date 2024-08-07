@@ -130,7 +130,7 @@ public class BetterFilter : IFilter<Product>
 
 public class Demo
 {
-    static void Main(string[] args)
+    static void MainOCP(string[] args)
     {
         var apple = new Product("Apple", Color.Green, Size.Small);
         var tree = new Product("Tree", Color.Green, Size.Large);
