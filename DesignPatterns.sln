@@ -21,6 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Structural Patterns", "
 		StructuralPatterns.md = StructuralPatterns.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Behavioral Patterns", "2 - Behavioral Patterns", "{71415673-BF7B-4DCD-980B-E79D4A6A8E09}"
+	ProjectSection(SolutionItems) = preProject
+		BehavioralPatterns.md = BehavioralPatterns.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +49,7 @@ Global
 		{ADC3C916-141E-4B19-9406-A7CDBC8E96A6} = {DC9C8E64-7B26-45C3-8002-96FC84133A48}
 		{13770D91-755D-4768-B1FD-72AD9EC65B64} = {ADC3C916-141E-4B19-9406-A7CDBC8E96A6}
 		{223A1CC7-C870-49ED-9D45-750E3B56C0CD} = {DC9C8E64-7B26-45C3-8002-96FC84133A48}
+		{71415673-BF7B-4DCD-980B-E79D4A6A8E09} = {DC9C8E64-7B26-45C3-8002-96FC84133A48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EC99634-91C5-483A-B0E4-D230EE280F21}
