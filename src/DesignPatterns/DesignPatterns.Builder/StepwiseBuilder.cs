@@ -49,6 +49,10 @@ public class CarBuilder
         return new Impl();
     }
 
+    /*
+     * The Impl class is private to not expose the implementation details.
+    */
+
     private class Impl :
       ISpecifyCarType,
       ISpecifyWheelSize,
