@@ -87,7 +87,7 @@ namespace DesignPatterns.Builder
 
     public class Demo
     {
-        static void Main(string[] args)
+        static void MainBuilder(string[] args)
         {
             // if you want to build a simple HTML paragraph using StringBuilder
             var hello = "hello";
