@@ -16,6 +16,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Creational Patterns", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Builder", "src\DesignPatterns.Builder\DesignPatterns.Builder.csproj", "{13770D91-755D-4768-B1FD-72AD9EC65B64}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Structural Patterns", "1 - Structural Patterns", "{223A1CC7-C870-49ED-9D45-750E3B56C0CD}"
+	ProjectSection(SolutionItems) = preProject
+		StructuralPatterns.md = StructuralPatterns.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +43,7 @@ Global
 		{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4} = {420A7FBF-43D6-416B-89EC-273A7E54BD64}
 		{ADC3C916-141E-4B19-9406-A7CDBC8E96A6} = {DC9C8E64-7B26-45C3-8002-96FC84133A48}
 		{13770D91-755D-4768-B1FD-72AD9EC65B64} = {ADC3C916-141E-4B19-9406-A7CDBC8E96A6}
+		{223A1CC7-C870-49ED-9D45-750E3B56C0CD} = {DC9C8E64-7B26-45C3-8002-96FC84133A48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EC99634-91C5-483A-B0E4-D230EE280F21}
