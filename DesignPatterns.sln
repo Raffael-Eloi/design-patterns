@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Behavioral Patterns", "
 		BehavioralPatterns.md = BehavioralPatterns.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Builder", "src\DesignPatterns\DesignPatterns.Builder\DesignPatterns.Builder.csproj", "{122B08E0-4184-4441-9061-2A3346FB4B71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3FCB93F-BA41-4DA6-8BE6-DA0DE5873DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122B08E0-4184-4441-9061-2A3346FB4B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122B08E0-4184-4441-9061-2A3346FB4B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122B08E0-4184-4441-9061-2A3346FB4B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122B08E0-4184-4441-9061-2A3346FB4B71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{ADC3C916-141E-4B19-9406-A7CDBC8E96A6} = {DC9C8E64-7B26-45C3-8002-96FC84133A48}
 		{223A1CC7-C870-49ED-9D45-750E3B56C0CD} = {DC9C8E64-7B26-45C3-8002-96FC84133A48}
 		{71415673-BF7B-4DCD-980B-E79D4A6A8E09} = {DC9C8E64-7B26-45C3-8002-96FC84133A48}
+		{122B08E0-4184-4441-9061-2A3346FB4B71} = {ADC3C916-141E-4B19-9406-A7CDBC8E96A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EC99634-91C5-483A-B0E4-D230EE280F21}
