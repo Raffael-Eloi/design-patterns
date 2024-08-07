@@ -48,7 +48,7 @@ public static class PersonBuilderExtensions
 
 public class ProgramFunctionalBuilder
 {
-    public static void Main(string[] args)
+    public static void MainFunctionalBuilder(string[] args)
     {
         var pb = new PersonBuilder();
         var person = pb
