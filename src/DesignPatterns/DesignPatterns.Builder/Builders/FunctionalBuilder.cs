@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Builder.FunctionalBuilder;
+﻿namespace DesignPatterns.Builder.Builders;
 
 public class Person
 {

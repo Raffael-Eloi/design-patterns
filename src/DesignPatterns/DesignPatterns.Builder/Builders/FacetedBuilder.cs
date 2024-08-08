@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 
-namespace DesignPatterns.Builder.FacetedBuilder;
+namespace DesignPatterns.Builder.Builders.FacatedBuilder;
 
 public class Person
 {
@@ -93,7 +93,7 @@ public class PersonAddressBuilder : PersonBuilder
 
 public class Demo
 {
-    static void Main(string[] args)
+    static void MainFacetedBuilder(string[] args)
     {
         var pb = new PersonBuilder();
         Person person = pb

@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using static System.Console;
 
-namespace DesignPatterns.Builder
+namespace DesignPatterns.Builder.Builders
 {
     class HtmlElement
     {
